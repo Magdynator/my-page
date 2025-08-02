@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>MY first web page</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <div class ="grid-layout">
+        <header>
+            <div class="navbar">
+            <h1>Magdy Edwar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skils">Skils</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+               
+            </div>
+        </header>
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </aside>
+    
+        <main>
+            <section id ="about">
+                <h2>About me</h2>
+                <div class="about-content">
+                    <img src="boy.png" alt="Magdy Edwar"/>
+                    <p>Hello I'm Magdy , a full stack and i 25 years old </p>                    </p>
+                </div>
+            </section>
+            <section id ="skills">
+                <h2>My skills</h2>
+                <div class="skills-content">
+                    <span>html</span>
+                    <span>css</span>
+                    <span>Java</span>
+                    <span>php</span>
+                    <span>python</span>
+                    <span>Laravel</span>
+                    <span>Spring Boot</span>
+                    <span>Github</span>
+                </div>
+            </section>
+            <section id ="project">
+                <h2>My project</h2>
+                <ul>
+                    <li>personal website</li>
+                </ul>
+            </section>
+            <section id ="Contact">
+                <h2>Contact me</h2>
+                <form>
+                    <label for="name">First Name </label>
+                    <input type="text" id ="name"  placeholder="Enter Your name" required>
+                    <label for="email">Email </label>
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option>General</option>
+                        <option>Feedback</option>
+                        <option>Project</option>
+                    </select>
+                    <label for="message">Message </label>
+                    <textarea id="message" rows="5" placeholder="Type your message...."></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Magdy Edwar</p>
+        </footer>
+    </div>
+    </body>
+</html>
